@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+
 fn process_line(str: &str, map: &HashMap<&str, char>) -> String {
     let mut out: Vec<char> = Vec::new();
     let window_size: usize = if str.len() < 5 { str.len() } else { 5 };
