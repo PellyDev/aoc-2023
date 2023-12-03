@@ -1,7 +1,7 @@
 use regex::Regex;
 fn main() {
     let prefix_pattern = Regex::new(r".*\d+: ").unwrap();
-    let input = include_str!("../my_input.txt");
+    let input = include_str!("../sample_input.txt");
     let res = input
         .lines()
         .map(|line| {
