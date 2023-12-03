@@ -1,6 +1,6 @@
 # Advent of Code 2023 in Rust
 
-This repository features Rust solutions for the [AOC 2023](https://adventofcode.com/2023/) code puzzles.
+This repository features Rust solutions for the [AOC 2023](https://adventofcode.com/2023/) code puzzles. Solutions are not optimal!
 
 ## How to use
 
