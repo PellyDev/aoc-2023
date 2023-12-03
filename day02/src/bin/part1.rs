@@ -11,7 +11,7 @@ fn main() {
             let cleaned_line = prefix_pattern
                 .replace(line, "")
                 .parse::<String>()
-                .expect("Something went sanitizing the input");
+                .expect("Something went wrong sanitizing the input");
             let rounds = cleaned_line.split(";").collect::<Vec<&str>>();
             for round in rounds {
                 round.split(",").for_each(|draw| {
